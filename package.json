@@ -1,0 +1,23 @@
+{
+	"name": "cl-crud-upload",
+	"version": "1.0.8",
+	"description": "cool-admin: cl-crud、cl-form、cl-dialog",
+	"main": "index.js",
+	"author": "icssoa",
+	"license": "ISC",
+	"keywords": [
+		"crud",
+		"admin",
+		"vue",
+		"vue3",
+		"element-ui",
+		"upload"
+	],
+	"homepage": "https://docs.cool-js.com/admin/front/components.html#cl-upload-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0",
+	"files": [
+		"vue2",
+		"vue3",
+		"utils.js",
+		"index.js"
+	]
+}
