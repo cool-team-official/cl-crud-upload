@@ -90,6 +90,8 @@ import { baseUrl, upload } from "@/config/env";
 import { clone, isArray, last, isNumber } from "../utils";
 
 export default {
+	name: "cl-upload",
+
 	props: {
 		modelValue: [Array, String],
 		// 上传的地址，当为 comm 时，调用 /comm/upload 接口

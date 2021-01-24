@@ -138,6 +138,8 @@ import { mapGetters } from "vuex";
 import { last, isEmpty } from "../utils";
 
 export default {
+	name: "cl-upload-space",
+
 	componentName: "UploadSpace",
 
 	props: {
