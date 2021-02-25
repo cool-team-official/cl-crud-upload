@@ -88,6 +88,7 @@
 import { mapGetters } from "vuex";
 import { baseUrl, upload } from "@/config/env";
 import { clone, isArray, last, isNumber } from "../utils";
+import path from "path";
 
 export default {
 	name: "cl-upload",
@@ -288,6 +289,7 @@ export default {
 				this.fileList = list.filter(Boolean).map((url) => {
 					return {
 						url,
+						name: path.basename(url),
 						uid: url
 					};
 				});

@@ -1,6 +1,6 @@
 {
 	"name": "cl-crud-upload",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "cool-admin: cl-crud、cl-form、cl-dialog",
 	"main": "index.js",
 	"author": "icssoa",
